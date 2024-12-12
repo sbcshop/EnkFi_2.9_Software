@@ -36,25 +36,25 @@ This GitHub provides getting started instructions to use EnkFi 4.2" E-Paper.
 - **RGB LED** : WS2812B
 - **Working Temperature** : 0°C ~ +40°C 
 - **E-Paper Display** =>
-  - **E-paper Size** : 4.2"
-  - **Resolution** : 400X300
+  - **E-paper Size** : 2.9"
+  - **Resolution** : 296x128
   - **Color** : Red, Black and White
   - **Interface** : SPI
-  - **Driver** : UC8276
+  - **Driver** : SSD1680A
 
 
-## Getting Started with EnkFi 4.2" Board
+## Getting Started with EnkFi 2.9" Board
 ### Pinout
-<img src= "https://github.com/sbcshop/EnkFi_7.5_Software/blob/main/images/EnkFi_7.5_pinout.png" />
+<img src= "https://github.com/sbcshop/EnkFi_2.9_Software/blob/main/images/EnkFi_2in9_pinout.png" />
 
 | | | |
 |--|--|--|
-|(1) Power LED          | (7) Buzzer                      | (13) Boot Button |
-|(2) Charging Status    | (8) GPIOs Breakout              | (14) Reset Button |
-|(3) Battery Connector  | (9) TF card slot                | (15) Programmable Buttons |
-|(4) E-paper connector  | (10) Native USB (USB_D+/USB_D-) | (16) Programmable Buttons  |
-|(5) DS3231 RTC         | (11) Serial USB                 | (17) 7.5” E-Paper Display |
-|(6) Coin Cell Holder   | (12) ESP32 S3 WROOM-1           | |
+|(1) ESP32 S3 WROOM-1           | (7) Charging Status    | (13) E-paper |
+|(2) Serial USB                 | (8) Battery Connector  | (14) Boot Button |
+|(3) Power LED                  | (9) E-paper connector  | (15) Reset Button |
+|(4) Native USB (USB_D+/USB_D-) | (10) Coin Cell Holder  | (16) Programmable Buttons  |
+|(5) GPIOs Breakout             | (11) Buzzer            |  |
+|(6) TF card slot               | (12) DS3231 RTC        |  |
   
 ### Interfacing Details
   
@@ -66,7 +66,7 @@ This GitHub provides getting started instructions to use EnkFi 4.2" E-Paper.
   | IO11 | DISPLAY_MOSI_PIN | MOSI (Master OUT Slave IN) pin of SPI interface|
   | IO13 | DISPLAY_DC_PIN   | Data/Command (MISO) pin of SPI interface |
   | IO10 | DISPLAY_CS_PIN   | Chip Select pin of SPI interface|
-  | IO21 | DISPLAY_BUSY_PIN | Busy Status pin of E-Paper |
+  | IO46 | DISPLAY_BUSY_PIN | Busy Status pin of E-Paper |
   | IO14 | DISPLAY_RST_PIN  | Display Reset pin |
 
  - **_SDcard Interface_**
@@ -85,9 +85,9 @@ This GitHub provides getting started instructions to use EnkFi 4.2" E-Paper.
   |IO15 | Buzzer |Buzzer Positive Pin |  
   |IO0 | BOOT |Boot button |
   |IO4 | BT1 | Programmable Button |
-  |IO5 | BT2 | Programmable Button |
-  |IO6 | BT3 | Programmable Button |
-  |IO7 | BT3 | Programmable Button |
+  |IO6 | BT2 | Programmable Button |
+  |IO5 | BT3 | Programmable Button |
+  |IO7 | BT4 | Programmable Button |
 
 - **_DS3231 RTC interfacing with ESP32 using I2C_** 
 
@@ -129,7 +129,7 @@ This GitHub provides getting started instructions to use EnkFi 4.2" E-Paper.
    
    - You have two options to program onboard ESP32 of EnkFi board, **_UART USB_** OR **_Native USB_**.
 
-     <img src="https://github.com/sbcshop/EnkFi_7.5_Software/blob/main/images/usb_options.png" width="372" height="214">   
+     <img src="https://github.com/sbcshop/EnkFi_2.9_Software/blob/main/images/USB_options.jpg" width="282" height="178">   
    
    - When using Native ESP USB, you will have to press BOOT button once and then connect Type C. For UART USB no need, directly connect USB.
    
