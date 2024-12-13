@@ -173,9 +173,9 @@ This GitHub provides getting started instructions to use EnkFi 2.9" E-Paper.
    Now you are ready to try out your own codes, **_Happy Coding!_**
 
 ## Resources
-  * [Schematic](https://github.com/sbcshop/EnkFi_2.9_Hardware/blob/main/Design%20Data/EnkFi%207.5%20Sch.PDF)
+  * [Schematic](https://github.com/sbcshop/EnkFi_2.9_Hardware/blob/main/Design%20Data/EnkFi2_9_SCH.pdf)
   * [Hardware Files](https://github.com/sbcshop/EnkFi_2.9_Hardware)
-  * [Step File](https://github.com/sbcshop/EnkFi_2.9_Hardware/blob/main/Mechanical%20Data/Enkfi_7in5.STEP)
+  * [Step File](https://github.com/sbcshop/EnkFi_2.9_Hardware/blob/main/Mechanical%20Data/EnkFi2_9.step)
   * [Getting Started with ESP32 in Arduino](https://docs.espressif.com/projects/arduino-esp32/en/latest/)
   * [ESP32 S3 Hardware Reference](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/index.html)
   * [ESP32 S3 Datasheet](https://github.com/sbcshop/3.2_Touchsy_ESP-32_Capacitive_Software/blob/main/documents/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
