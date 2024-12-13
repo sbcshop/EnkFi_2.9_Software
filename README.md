@@ -4,7 +4,7 @@
 
 The EnkFi series, **powered** by the **ESP32 S3 WROOM**, offers versatile **e-paper display** options in **[2.9”](https://shop.sb-components.co.uk/products/enkfi-epaper-display-board-based-on-esp32-s3-wroom-1?variant=41443707846739), [4.2”](https://shop.sb-components.co.uk/products/enkfi-epaper-display-board-based-on-esp32-s3-wroom-1?variant=41443707879507), [5.83”](https://shop.sb-components.co.uk/products/enkfi-epaper-display-board-based-on-esp32-s3-wroom-1?variant=41443707912275), and [7.5”](https://shop.sb-components.co.uk/products/enkfi-epaper-display-board-based-on-esp32-s3-wroom-1?variant=41443707945043)** sizes, catering to diverse application needs. These displays feature a wide viewing angle of over 170 degrees and utilize bistable technology, ensuring no power consumption when the screen is not refreshed, making them highly energy-efficient. The black-white-red color scheme protects the eyes by eliminating blue light and radiation. With built-in WiFi and BLE capabilities, the EnkFi series is ideal for IoT-based projects, providing robust connectivity.
 
-This GitHub provides getting started instructions to use EnkFi 4.2" E-Paper.
+This GitHub provides getting started instructions to use EnkFi 2.9" E-Paper.
 
 ### Features
 - EnkFi series powered by **ESP32 S3 WROOM-1**
@@ -160,15 +160,14 @@ This GitHub provides getting started instructions to use EnkFi 4.2" E-Paper.
 
 
 ### 3. Testing First Code
-   - At this step you are all set to test codes, for easy getting started we have provided various demo [example codes](https://github.com/sbcshop/EnkFi_7.5_Software/tree/main/examples) in github which you can download and try. 
+   - At this step you are all set to test codes, for easy getting started we have provided various demo [example codes](https://github.com/sbcshop/EnkFi_2.9_Software/tree/main/examples) in github which you can download and try. 
    - Open one example code in Arduino and make sure you have selected correct board with suitable com port, click on upload button to transfer code on EnkFi board.
      <img src="https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/blob/main/images/upload_process.gif">
    - Checkout other examples below and build your own custom program codes using those references.
 
 ### Example Codes
    - [Example 1](https://github.com/sbcshop/EnkFi_2.9_Software/tree/main/examples/Demo_Buzzer_Button) : Onboard Button and Buzzer Testing 
-   - [Example 2](https://github.com/sbcshop/EnkFi_2.9_Software/tree/main/examples/Demo_GraphicsDisplay) : Create Graphics like line, circle, etc. on EnkFi E-Paper display
-   - [Example 3](https://github.com/sbcshop/EnkFi_2.9_Software/tree/main/examples/Demo_ImageDisplay) : Image display demo, follow instructions [here](https://github.com/sbcshop/EnkFi_7.5_Software/blob/main/documents/Image%20to%20Arduino%20Byte%20Conversion.pdf) to create your own array image to use with code.   
+   - [Example 2](https://github.com/sbcshop/EnkFi_2.9_Software/tree/main/examples/Demo_ImageDisplay) : Image display demo, follow instructions [here](https://github.com/sbcshop/EnkFi_7.5_Software/blob/main/documents/Image%20to%20Arduino%20Byte%20Conversion.pdf) to create your own array image to use with code.   
    - and [Many more...](https://github.com/sbcshop/EnkFi_2.9_Software/tree/main/examples)
 
    Now you are ready to try out your own codes, **_Happy Coding!_**
